@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    <script src="PitchyPerfect.js"></script>
+  </head>
+    <div class="dropdown">
+      <button class="dropbtn">Select Note</button>
+      <div class="dropdown-content">
+        <!--0th Octave-->
+        <button onclick="setTarget(-48)">A0</button>
+        <button onclick="setTarget(-47)">A#0</button>
+        <button onclick="setTarget(-46)">B0</button>
+        <button onclick="setTarget(-45)">C0</button>
+        <button onclick="setTarget(-44)">C#0</button>
+        <button onclick="setTarget(-43)">D0</button>
+        <button onclick="setTarget(-42)">D#0</button>
+        <button onclick="setTarget(-41)">E0</button>
+        <button onclick="setTarget(-40)">F0</button>
+        <button onclick="setTarget(-39)">F#0</button>
+        <button onclick="setTarget(-38)">G0</button>
+        <button onclick="setTarget(-37)">G#0</button>
+        <!--1st Octave-->
+        <button onclick="setTarget(-36)">A1</button>
+        <button onclick="setTarget(-35)">A#1</button>
+        <button onclick="setTarget(-34)">B1</button>
+        <button onclick="setTarget(-33)">C1</button>
+        <button onclick="setTarget(-32)">C#1</button>
+        <button onclick="setTarget(-31)">D1</button>
+        <button onclick="setTarget(-30)">D#1</button>
+        <button onclick="setTarget(-29)">E1</button>
+        <button onclick="setTarget(-28)">F1</button>
+        <button onclick="setTarget(-27)">F#1</button>
+        <button onclick="setTarget(-26)">G1</button>
+        <button onclick="setTarget(-25)">G#1</button>
+        <!--2nd Octave-->
+        <button onclick="setTarget(-24)">A2</button>
+        <button onclick="setTarget(-23)">A#2</button>
+        <button onclick="setTarget(-22)">B2</button>
+        <button onclick="setTarget(-21)">C2</button>
+        <button onclick="setTarget(-20)">C#2</button>
+        <button onclick="setTarget(-19)">D2</button>
+        <button onclick="setTarget(-18)">D#2</button>
+        <button onclick="setTarget(-17)">E2</button>
+        <button onclick="setTarget(-16)">F2</button>
+        <button onclick="setTarget(-15)">F#2</button>
+        <button onclick="setTarget(-14)">G2</button>
+        <button onclick="setTarget(-13)">G#2</button>
+        <!--3rd Octave-->
+        <button onclick="setTarget(-12)">A3</button>
+        <button onclick="setTarget(-11)">A#3</button>
+        <button onclick="setTarget(-10)">B3</button>
+        <button onclick="setTarget(-9)">C3</button>
+        <button onclick="setTarget(-8)">C#3</button>
+        <button onclick="setTarget(-7)">D3</button>
+        <button onclick="setTarget(-6)">D#3</button>
+        <button onclick="setTarget(-5)">E3</button>
+        <button onclick="setTarget(-4)">F3</button>
+        <button onclick="setTarget(-3)">F#3</button>
+        <button onclick="setTarget(-2)">G3</button>
+        <button onclick="setTarget(-1)">G#3</button>
+        <!--4th Octave-->
+        <button onclick="setTarget(0)">A4</button>
+        <button onclick="setTarget(1)">A#4</button>
+        <button onclick="setTarget(2)">B4</button>
+        <button onclick="setTarget(3)">C4</button>
+        <button onclick="setTarget(4)">C#4</button>
+        <button onclick="setTarget(5)">D4</button>
+        <button onclick="setTarget(6)">D#4</button>
+        <button onclick="setTarget(7)">E4</button>
+        <button onclick="setTarget(8)">F4</button>
+        <button onclick="setTarget(9)">F#4</button>
+        <button onclick="setTarget(10)">G4</button>
+        <button onclick="setTarget(11)">G#4</button>
+        <!--5th Octave-->
+        <button onclick="setTarget(12)">A5</button>
+        <button onclick="setTarget(13)">A#5</button>
+        <button onclick="setTarget(14)">B5</button>
+        <button onclick="setTarget(15)">C5</button>
+        <button onclick="setTarget(16)">C#5</button>
+        <button onclick="setTarget(17)">D5</button>
+        <button onclick="setTarget(18)">D#5</button>
+        <button onclick="setTarget(19)">E5</button>
+        <button onclick="setTarget(20)">F5</button>
+        <button onclick="setTarget(21)">F#5</button>
+        <button onclick="setTarget(22)">G5</button>
+        <button onclick="setTarget(23)">G#5</button>
+        <!--6th Octave-->
+        <button onclick="setTarget(24)">A6</button>
+        <button onclick="setTarget(25)">A#6</button>
+        <button onclick="setTarget(26)">B6</button>
+        <button onclick="setTarget(27)">C6</button>
+        <button onclick="setTarget(28)">C#6</button>
+        <button onclick="setTarget(29)">D6</button>
+        <button onclick="setTarget(30)">D#6</button>
+        <button onclick="setTarget(31)">E6</button>
+        <button onclick="setTarget(32)">F6</button>
+        <button onclick="setTarget(33)">F#6</button>
+        <button onclick="setTarget(34)">G6</button>
+        <button onclick="setTarget(35)">G#6</button>
+        <!--7th Octave-->
+        <button onclick="setTarget(36)">A7</button>
+        <button onclick="setTarget(37)">A#7</button>
+        <button onclick="setTarget(38)">B7</button>
+        <button onclick="setTarget(39)">C7</button>
+        <button onclick="setTarget(40)">C#7</button>
+        <button onclick="setTarget(41)">D7</button>
+        <button onclick="setTarget(42)">D#7</button>
+        <button onclick="setTarget(43)">E7</button>
+        <button onclick="setTarget(44)">F7</button>
+        <button onclick="setTarget(45)">F#7</button>
+        <button onclick="setTarget(46)">G7</button>
+        <button onclick="setTarget(47)">G#7</button>
+      </div>
+    </div>
+    <h1 class="Title">Pitchy Perfect</h1>
+      <body class = "Center Background">
+      	<div src ="PitchyPerfect.js"></div>
+      </body>
+</html>

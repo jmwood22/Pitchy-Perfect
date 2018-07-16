@@ -1,0 +1,19 @@
+Pitchy Perfect
+
+Materials Needed:
+1. Microphone (may perform better with an external microphone that can be moved closer to the source of the sound being inputted)
+2. Headphones
+
+Instructions:
+
+1. Double-click the "index.html" file (it should open in your computer's default web browser. If this does not happen, right click "index.html" and navigate to "Open With" and choose the web browser that you wish to use)
+
+2. Follow the instructions on this page before proceeding (go to the Dropdown menu and select the note you'd like to practice)
+
+3. Open the MatLab file called "PitchyPerfect.m"
+
+4. Click "Run" at the top of the MatLab window to run the program
+
+5. If there is a pop-up that says that "/PitchyPerfect.m is not found in the current folder or on the MATLAB path" click "Add to Path". If not, continue.
+
+6. At this point, the MatLab program should be running so just navigate back to the web page that is running "index.html" and begin to sing into the microphone to perfect your pitch!

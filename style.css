@@ -1,0 +1,58 @@
+/*General Styling*/
+.Title {
+	text-align: center;
+	color: red;
+	font-family: cursive;
+	font-size: 50px;
+}
+.Background {
+    background-color: #ADD8E6;
+}
+.Center {
+	text-align: center;
+}
+.dropbtn {
+    background-color: #FFA500;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+/*Dropdown Menu Styling*/
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+}
+
+.dropdown-content {
+	max-height: 450;
+	overflow: auto;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 115px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content button {
+    color: black;
+    text-align: center;
+    padding: 4px 40px;
+    text-decoration: none;
+    display: block;
+	background-color: Transparent;
+    border: none;
+    font-size: 20;
+    font-family: Impact;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000FFF;
+}
