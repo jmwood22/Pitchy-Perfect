@@ -8,4 +8,4 @@ As their pitch moved between sharp and flat, the tone would sound like it was mo
 a similar manner that a tuning needle would. 
 
 A more extensive description of the project can be found in the [Pitchy Perfect Final Report](Pitchy Perfect Final Report.pdf) and instructions
-for running the software can be found in Instructions.txt
+for running the software can be found in [Instructions](Instructions.txt)
