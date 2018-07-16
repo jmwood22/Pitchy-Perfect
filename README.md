@@ -7,5 +7,5 @@ would hear the tone more in their right ear while if they were sharp, they would
 As their pitch moved between sharp and flat, the tone would sound like it was moving around their head in
 a similar manner that a tuning needle would. 
 
-A more extensive description of the project can be found in the [Pitchy Perfect Final Report](Pitchy Perfect Final Report.pdf) and instructions
+A more extensive description of the project can be found in the [Pitchy Perfect Final Report](Pitchy%20Perfect%20Final%20Report.pdf) and instructions
 for running the software can be found in [Instructions](Instructions.txt)
